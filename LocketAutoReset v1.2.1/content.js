@@ -17,7 +17,9 @@ class LocketCelebHelper {
     }
     
     async init() {
-        console.log('Locket Celeb Helper initialized v1.9 - Reload on Stop');
+        console.log('Locket Celeb Helper initialized v2.1 - Corrected General Observer');
+        
+        this.startGeneralObserver();
         
         chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
             this.handleMessage(message);
@@ -29,6 +31,49 @@ class LocketCelebHelper {
             this.showNotification('Tiếp tục chu kỳ tự động...', 'info');
             this.resumeAutomation();
         }
+    }
+
+    /**
+     * This observer runs constantly in the background to handle common UI elements
+     * like pop-up announcements and "Load More" buttons, independent of the main automation cycle.
+     */
+    startGeneralObserver() {
+        const generalObserver = new MutationObserver((mutations, observer) => {
+            
+            // --- START MODIFIED CODE ---
+            // Action 1: Look for and close the notification popup.
+            // This logic is independent and will always run on changes.
+            const notificationTitle = Array.from(document.querySelectorAll('h1, h2, h3, div')).find(el => el.textContent.includes('THÔNG BÁO QUAN TRỌNG'));
+            if (notificationTitle) {
+                const popupContainer = notificationTitle.closest('div[role="dialog"], .modal, body > div:not([id])');
+                if (popupContainer) {
+                    const closeButton = Array.from(popupContainer.querySelectorAll('button')).find(btn => 
+                        btn.textContent.trim().toLowerCase() === 'x' || 
+                        btn.getAttribute('aria-label')?.toLowerCase().includes('close') ||
+                        btn.getAttribute('aria-label')?.toLowerCase().includes('đóng')
+                    );
+                    
+                    if (closeButton) {
+                        console.log('Auto-closing notification popup...');
+                        closeButton.click();
+                    }
+                }
+            }
+
+            // Action 2: Look for and click the "Xem thêm" button.
+            // This logic is also independent and will always run on changes.
+            const xemThemButton = this.findElementByText('button', ['Xem thêm']);
+            if (xemThemButton) {
+                console.log('Auto-clicking "Xem thêm" button to load all celebs...');
+                xemThemButton.click();
+            }
+            // --- END MODIFIED CODE ---
+        });
+
+        generalObserver.observe(document.body, {
+            childList: true,
+            subtree: true
+        });
     }
     
     handleMessage(message) {
@@ -320,25 +365,20 @@ class LocketCelebHelper {
         }
     }
     
-    // --- START MODIFIED CODE ---
     stopAutomation() {
         this.isRunning = false;
         
         if (this.stepTimeout) clearTimeout(this.stepTimeout);
         if (this.logObserver) this.logObserver.disconnect();
         
-        // Save state with isRunning: false BEFORE reloading the page.
-        // This prevents the automation from auto-resuming after the reload.
         this.saveState();
         this.showNotification('Đã dừng chu kỳ tự động. Đang tải lại trang...', 'warning');
         this.updateStatus('Đã dừng. Đang tải lại...');
 
-        // Wait a brief moment for the user to see the notification, then reload.
         setTimeout(() => {
             window.location.reload();
-        }, 1500); // 1.5 second delay
+        }, 1500);
     }
-    // --- END MODIFIED CODE ---
     
     async wait(ms) {
         return new Promise(resolve => {
