@@ -2,8 +2,6 @@
 
 Công cụ tự động hóa các tác vụ trên trang Locket Celeb, giúp bạn tiết kiệm thời gian và tăng hiệu quả.
 
-![Icon](AutoLocketCeleb%20v1.2/icon/icon.1.png)
-
 ## ✨ Tính Năng Nổi Bật
 
 - **Quét Tự Động**: Tự động quét và cập nhật danh sách các "celeb" có thể kết bạn.
@@ -39,8 +37,6 @@ Nếu bạn thấy công cụ này hữu ích, hãy cân nhắc ủng hộ để
 
 -   **Tác giả**: [Huy Vũ](https://beacons.ai/huyvu2512)
 -   **Ngân hàng**: MB Bank - `25122007777777`
-
-![QR Code](AutoLocketCeleb%20v1.2/icon/qr.jpg)
 
 ## 📄 Giấy Phép
 
