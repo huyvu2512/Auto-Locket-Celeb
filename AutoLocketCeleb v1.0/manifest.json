@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Locket Celeb",
+  "version": "1.0",
+  "description": "Công cụ được tạo bởi Huy Vũ",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://locket.binhake.dev/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Auto Locket Celeb"
+  },
+  "icons": {
+    "16": "icon/icon.1.png",
+    "48": "icon/icon.1.png",
+    "128": "icon/icon.1.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://locket.binhake.dev/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["icon/qr.jpg", "donate.html", "donate.css"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
