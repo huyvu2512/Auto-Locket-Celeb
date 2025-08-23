@@ -41,4 +41,4 @@ Nếu bạn thấy công cụ này hữu ích, hãy cân nhắc ủng hộ để
 ## 📄 Phiên Bản Update
 
 - AutoLocketCeleb v1.0: Quét và chọn Celeb ; Chu trình tự động ; Chế độ ngẫu nhiên ; Xử lý lỗi kết nối
-- AutoLocketCeleb v1.2: Bổ sung thêm tính năng (Tính năng hẹn giờ ; Giao diện cải tiến ; Quản lý trạng thái tốt hơn)
+- AutoLocketCeleb v1.2: **Bổ sung thêm tính năng** (Tính năng hẹn giờ ; Giao diện cải tiến ; Quản lý trạng thái tốt hơn)
