@@ -38,6 +38,7 @@ Nếu bạn thấy công cụ này hữu ích, hãy cân nhắc ủng hộ để
 -   **Tác giả**: [Huy Vũ](https://beacons.ai/huyvu2512)
 -   **Ngân hàng**: MB Bank - `25122007777777`
 
-## 📄 Giấy Phép
+## 📄 Phiên Bản Update
 
-© 2025 Auto Locket Celeb
+- AutoLocketCeleb v1.0: Quét và chọn Celeb ; Chu trình tự động ; Chế độ ngẫu nhiên ; Xử lý lỗi kết nối
+- AutoLocketCeleb v1.2: Bổ sung thêm tính năng (Tính năng hẹn giờ ; Giao diện cải tiến ; Quản lý trạng thái tốt hơn)
