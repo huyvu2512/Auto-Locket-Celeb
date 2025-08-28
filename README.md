@@ -39,6 +39,6 @@ Nếu bạn thấy công cụ này hữu ích, hãy cân nhắc ủng hộ để
 
 ## 📄 Phiên Bản Update
 
-- **v1.2 (Nâng cấp & Sửa lỗi)**: Tự động mở tab mới, dừng khi tải lại trang, thêm cơ chế giám sát 5 phút chống treo và sửa lỗi đồng hồ đếm ngược.
+- **v1.2 (Nâng cấp & Sửa lỗi)**: Thay đổi Logo, tự động mở tab mới, dừng khi tải lại trang, thêm cơ chế giám sát 5 phút chống treo và sửa lỗi đồng hồ đếm ngược.
 - **v1.1 (Bổ sung tính năng)**: Thêm tính năng hẹn giờ, cải tiến giao diện và quản lý trạng thái.
 - **v1.0 (Phiên bản đầu tiên)**: Ra mắt các tính năng cốt lõi: tự động kết bạn, chế độ ngẫu nhiên và xử lý lỗi kết nối.
