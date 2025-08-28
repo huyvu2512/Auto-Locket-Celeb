@@ -16,7 +16,7 @@ Công cụ tự động hóa các tác vụ trên trang Locket Celeb, giúp bạ
 1.  **Tải xuống**: Tải về phiên bản mới nhất (thư mục `AutoLocketCeleb v1.1`).
 2.  **Mở trang Tiện ích**: Mở trình duyệt Chrome và truy cập `chrome://extensions`.
 3.  **Bật Chế độ nhà phát triển**: Gạt bật "Chế độ dành cho nhà phát triển" (Developer mode) ở góc trên bên phải.
-4.  **Tải tiện ích**: Nhấp vào nút "Tải tiện ích đã giải nén" (Load unpacked) và chọn thư mục `AutoLocketCeleb v1.2` bạn vừa tải.
+4.  **Tải tiện ích**: Nhấp vào nút "Tải tiện ích đã giải nén" (Load unpacked) và chọn thư mục `AutoLocketCeleb v1.1` bạn vừa tải.
 5.  **Ghim tiện ích**: Ghim tiện ích lên thanh công cụ để dễ dàng truy cập.
 
 ## 💡 Cách Sử Dụng
