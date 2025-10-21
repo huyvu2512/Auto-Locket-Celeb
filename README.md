@@ -1,6 +1,11 @@
 # 🎭 Auto Locket Celeb v1.4
 
+![Auto Locket Celeb](https://img.shields.io/badge/Auto%20Locket-Celeb-purple?style=for-the-badge&logo=github)
+![Version](https://img.shields.io/badge/Version-v1.4-blue?style=for-the-badge)
+
 Công cụ tự động hóa việc gửi lời mời kết bạn với các celeb trên trang `https://locket.binhake.dev`, giúp bạn tiết kiệm thời gian. Công cụ được tạo bởi Huy Vũ.
+
+<img width="1870" height="861" alt="Giao diện Auto Locket Celeb" src="LINK_DEN_ANH_SCREENSHOT_CUA_BAN_O_DAY" />
 
 ## ✨ Tính Năng Nổi Bật
 
@@ -64,3 +69,5 @@ Nếu bạn thấy công cụ này hữu ích, hãy cân nhắc ủng hộ để
 - **v1.2 (Nâng cấp & Sửa lỗi)**: Thay đổi Logo, tự động mở tab mới, dừng khi tải lại trang, thêm cơ chế giám sát 5 phút chống treo và sửa lỗi đồng hồ đếm ngược.
 - **v1.1 (Bổ sung tính năng)**: Thêm tính năng hẹn giờ, cải tiến giao diện và quản lý trạng thái.
 - **v1.0 (Phiên bản đầu tiên)**: Ra mắt các tính năng cốt lõi: tự động kết bạn, chế độ ngẫu nhiên và xử lý lỗi kết nối.
+
+**Từ khóa**: locket auto friend, locket celeb, auto locket, chrome extension, locket.binhake.dev, tự động kết bạn locket, tool locket, bot locket, huy vũ.
