@@ -1,9 +1,9 @@
 # 🎭 Auto Locket Celeb v1.3
 
 ![Auto Locket Celeb](https://img.shields.io/badge/Auto%20Locket-Celeb-purple?style=for-the-badge&logo=github)
-![Version](https://img.shields.io/badge/Version-v1.4-blue?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-v1.3-blue?style=for-the-badge)
 
-Công cụ tự động hóa các tác vụ trên trang locket.binhake.dev, được tối ưu hóa để chạy nhanh hơn, ổn định hơn và thông minh hơn. Công cụ được tạo bởi Huy Vũ.
+Công cụ tự động hóa các tác vụ trên trang [locket.binhake.dev](https://locket.binhake.dev), được tối ưu hóa để chạy nhanh hơn, ổn định hơn và thông minh hơn. Công cụ được tạo bởi Huy Vũ.
 
 <img width="1070" height="861" alt="Giao diện Auto Locket Celeb" src="https://github.com/user-attachments/assets/c2249640-0c7e-41b2-8107-f8f24b5077b1" />
 
@@ -26,7 +26,7 @@ Công cụ tự động hóa các tác vụ trên trang locket.binhake.dev, đư
 
 ## 💡 Cách Sử Dụng
 
-1.  **Mở trang Locket & Tiện ích**: Truy cập `https://locket.binhake.dev` và nhấp vào biểu tượng của tiện ích.
+1.  **Mở trang Locket & Tiện ích**: Truy cập [locket.binhake.dev](https://locket.binhake.dev) và nhấp vào biểu tượng của tiện ích.
 2.  **Chọn Celeb**: Chọn một người nổi tiếng từ danh sách thả xuống.
 3.  **Tùy chỉnh**:
     -   Đánh dấu vào ô "Tự động chọn ngẫu nhiên khi hoàn thành" nếu muốn.
@@ -49,4 +49,4 @@ Nếu bạn thấy công cụ này hữu ích, hãy cân nhắc ủng hộ để
 - **v1.1 (Bổ sung tính năng)**: Thêm tính năng hẹn giờ, cải tiến giao diện và quản lý trạng thái.
 - **v1.0 (Phiên bản đầu tiên)**: Ra mắt các tính năng cốt lõi: tự động kết bạn, chế độ ngẫu nhiên và xử lý lỗi kết nối.
 
-**Từ khóa**: locket auto friend, locket celeb, auto locket, chrome extension, locket.binhake.dev, tự động kết bạn locket, tool locket, bot locket, huy vũ.
+**Từ khóa**: locket auto friend, locket celeb, auto locket, chrome extension, locket.binhake.dev, tự động kết bạn locket, tool locket.
