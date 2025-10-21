@@ -55,7 +55,7 @@ Công cụ tự động hóa việc gửi lời mời kết bạn với các cel
 Nếu bạn thấy công cụ này hữu ích, hãy cân nhắc ủng hộ để tác giả có thêm động lực phát triển các dự án mới.
 
 -   **Tác giả**: [Huy Vũ](https://beacons.ai/huyvu2512)
--   **Ngân hàng**: MB Bank - `25122007777777`
+-   Nếu bạn thấy dự án này hữu ích, hãy để lại một ⭐ trên GitHub để ủng hộ mình nhé!
 
 ## 📄 Phiên Bản Update
 
