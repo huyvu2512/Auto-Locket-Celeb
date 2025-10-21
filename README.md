@@ -5,7 +5,7 @@
 
 Công cụ tự động hóa các tác vụ trên trang locket.binhake.dev, được tối ưu hóa để chạy nhanh hơn, ổn định hơn và thông minh hơn. Công cụ được tạo bởi Huy Vũ.
 
-<img width="1870" height="861" alt="Giao diện Auto Locket Celeb" src="https://github.com/user-attachments/assets/c2249640-0c7e-41b2-8107-f8f24b5077b1" />
+<img width="1070" height="861" alt="Giao diện Auto Locket Celeb" src="https://github.com/user-attachments/assets/c2249640-0c7e-41b2-8107-f8f24b5077b1" />
 
 ## ✨ Tính Năng Nổi Bật
 
